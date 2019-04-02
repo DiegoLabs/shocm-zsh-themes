@@ -38,7 +38,7 @@ PATH_INFO () {
     echo "%{$fg[cyan]%}$DIR%{$reset_color%}"
 }
 
-PROMPT='%{$fg[$NCOLOR]%}%c %{$fg[magenta]%} > %{$reset_color%} '
+PROMPT='%{$fg[$NCOLOR]%}%c%{$fg[magenta]%}>%{$reset_color%} '
 
 RPROMPT='%{$fg[$NCOLOR]%}%p $(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
 
